@@ -1,0 +1,48 @@
+---
+title: "R Notebook Template"
+author: 名前
+date: 日付
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    number_sections: true
+---
+
+# 概要
+
+<!-- ここに概要と背景を -->
+
+# 結論
+
+<!-- ここに結論を -->
+
+# 詳細
+
+<!-- ここに詳細な報告を -->
+
+```{r results=FALSE}
+library(tidyverse)
+library(openxlsx)
+```
+
+
+これは [R Markdown](http://rmarkdown.rstudio.com) ノートブックです。コードを実行するとその下に結果が表示されます。
+
+チャンク内の*Run*ボタンを押すか、カーソルをチャンク内に動かし*Ctrl+Shift+Enter*キーを押して、このチャンクを実行してみましょう。
+
+```{r}
+plot(cars)
+```
+
+
+ツールバーの*Insert Chunk*ボタンを押すか*Ctrl+Alt+I*を押して新しいチャンクを追加します。
+
+
+ノートブックを保存すると、コードとその出力を含むHTMLファイルが一緒に保存されます（*Preview*をクリックするか*Ctrl+Shift+K*を押してHTMLファイルをプレビューします）。
+
+
+プレビューはエディタの内容を整形した後のHTMLコピーを表示します。
+結果的に、*Knit*と異なり、*Preview*はRコードのチャンクは実行しません。
+代わりに直近のチャンクの出力結果が表示されます。
+
